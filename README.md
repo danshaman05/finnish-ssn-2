@@ -57,6 +57,10 @@ npm run test:watch
 
 ## Changelog
 
+### 1.0.0
+
+- Support for new formats of Finnish personal identity code (valid from 2023)
+
 ### 0.9.0
 
 - Initial release (forked from [vkomulai/finnish-ssn](https://github.com/vkomulai/finnish-ssn))
