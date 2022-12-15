@@ -1,11 +1,12 @@
 {
-  "name": "finnish-ssn",
-  "version": "2.0.4",
+  "name": "finnish-ssn-dna",
+  "version": "0.9.0",
   "license": "MIT",
   "description": "Small utility for validating and creating Finnish social security numbers. No more, no less, no dependencies.",
   "author": "Ville Komulainen",
   "contributors": [
-    "Mika Viljanen https://github.com/mjviljan"
+    "Mika Viljanen https://github.com/mjviljan",
+    "Daniel Grohol  https://github.com/danshaman05"
   ],
   "main": "dist/finnish-ssn.js",
   "types": "dist/finnish-ssn.d.ts",
@@ -48,10 +49,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/vkomulai/finnish-ssn"
+    "url": "https://github.com/danshaman05/finnish-ssn-dna"
   },
   "bugs": {
-    "url": "https://github.com/vkomulai/finnish-ssn/issues"
+    "url": "https://github.com/danshaman05/finnish-ssn-dna"
   },
   "pre-commit": [
     "test",
