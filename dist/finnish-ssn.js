@@ -1,5 +1,6 @@
 'use strict';
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.FinnishSSN = void 0;
 class FinnishSSN {
     /**
      * Parse parameter given SSN string into Object representation.
@@ -80,9 +81,9 @@ class FinnishSSN {
         return (year % 4 === 0 && year % 100 !== 0) || year % 400 === 0;
     }
 }
+exports.FinnishSSN = FinnishSSN;
 FinnishSSN.FEMALE = 'female';
 FinnishSSN.MALE = 'male';
-exports.FinnishSSN = FinnishSSN;
 const centuryMap = new Map();
 centuryMap.set('A', 2000);
 centuryMap.set('B', 2000);
