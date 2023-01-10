@@ -1,4 +1,4 @@
-# Finnish SSN validation and creation
+# Finnish SSN validation and creation (fork)
 
  ![License](https://img.shields.io/npm/l/finnish-ssn.svg)
 
